@@ -42,8 +42,8 @@ Last Updated on \today
 \newcommand{\namesection}[3]{
 \centering{
 \fontsize{40pt}{60pt}
-\fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1
-\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
+\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1 % Sohaib
+\fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #2 % Mohamed
 } \\[5pt]
 \centering{
 \color{headings}
