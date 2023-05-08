@@ -24,7 +24,8 @@
 \documentclass[]{Sohaib-Mohamed}
 
 % For mathematical symbols
-\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+
 
 % Set applicant's personal data for header
 \name{Sohaib Mohamed}
@@ -35,10 +36,10 @@
    Cairo, Egypt
 }
 \contacts{
-   WhatsApp \linebreak
-   sohaib.amhmd@gmail.com \linebreak
-   linkedin.com/in/smalinux \linebreak
-   github.com/smalinux
+   \href{mailto:sohaib.amhmd@gmail.com}{sohaib.amhmd@gmail.com} \linebreak
+   \textbf{LinkedIn: }\href{linkedin.com/in/smalinux}{smalinux} \linebreak
+   \textbf{GitHub:} \href{https://github.com/smalinux}{smalinux} \linebreak
+   \textbf{WhatsApp: }\href{https://wa.me/201157133430}{\textit{201157133430}}
 }
 
 \begin{document}
@@ -46,10 +47,12 @@
 % Print the header
 \makeheader
 
-% Print the content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Experience}
-   \begin{cvsubsection}{Software Engineer, Intern}{Apple Computer}{Fall 2003 -- Spring 2005}
-      iChat AV
+   \begin{cvsubsection}{Software Engineer, Intern}{Google Summer of Code}{June 2022 - Oct 2022}
+      \textbf{Link:} \href{https://gist.github.com/smalinux/e869b376b5c77cacdcda4cb14f027632}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#google-summer-of-code-2022}{\textit{Portfolio}}
       \begin{itemize}
          %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
          %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
@@ -59,9 +62,10 @@
          \item
          \item
       \end{itemize}
+      \textbf{Skills}: x, y, z
    \end{cvsubsection}
-   \begin{cvsubsection}{Software Engineer, Intern}{Apple Computer}{Fall 2003 -- Spring 2005}
-      iChat AV
+   \begin{cvsubsection}{Open-Source Contributor}{Linux Kernel | Htop | PCP}{Feb 2021 -- Present}
+      \textbf{Links:} \href{https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=grep&q=sohaib}{\textit{Linux Kernel}} | \href{https://github.com/htop-dev/htop/commits?author=smalinux}{\textit{Htop}} | \href{https://github.com/performancecopilot/pcp/commits?author=smalinux}{\textit{PCP}}
       \begin{itemize}
          %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
          %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
@@ -71,12 +75,16 @@
          \item
          \item
       \end{itemize}
+      \textbf{Skills}: x, y, z
    \end{cvsubsection}
 \end{cvsection}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Projects}
-   \begin{cvsubsection}{Software Engineer, Intern}{}{Fall 2003 -- Spring 2005}
-      iChat AV
+   \begin{cvsubsection}{Linux From Scratch (LFS)}{}{Jan 2022 -- Feb 2022}
+      \textbf{Link:} \href{https://github.com/smalinux/LFS}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#linux-from-scratch-lfs}{\textit{Portfolio}}
       \begin{itemize}
          %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
          %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
@@ -85,9 +93,10 @@
          \item
          \item
       \end{itemize}
+      \textbf{Skills}: x, y, z
    \end{cvsubsection}
-   \begin{cvsubsection}{Software Engineer, Intern}{}{Fall 2003 -- Spring 2005}
-      iChat AV
+   \begin{cvsubsection}{Linux kernel modules}{}{Nov 2021 -- Jun 2021}
+      \textbf{Link:} \href{https://github.com/smalinux/linux-kernel-modules-lab}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#linux-kernel-modules}{\textit{Portfolio}}
       \begin{itemize}
          %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
          %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
@@ -96,9 +105,10 @@
          \item
          \item
       \end{itemize}
+      \textbf{Skills}: x, y, z
    \end{cvsubsection}
-   \begin{cvsubsection}{Software Engineer, Intern}{}{Fall 2003 -- Spring 2005}
-      iChat AV
+   \begin{cvsubsection}{SimOS}{}{Mar 2020 - Jan 2021}
+      \textbf{Link:} \href{https://github.com/smalinux/simOS}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#simos}{\textit{Portfolio}}
       \begin{itemize}
          %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
          %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
@@ -107,24 +117,34 @@
          \item
          \item
       \end{itemize}
+      \textbf{Skills}: x, y, z
    \end{cvsubsection}
 \end{cvsection}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Education}
-   \begin{cvsubsection}{Philadelphia, PA}{University of Pennsylvania}{Fall 2000 -- May 2005}
-      B.S.E. in Computer Science Engineering with Minor in Mathematics, May 2005.  In-major GPA: 3.4.
+   \begin{cvsubsection}{Giza, EG}{Misr University}{Oct 2019 -- Aug 2022}
+      B.S. in Computer Science. Misr University for Science and Technology -- CGPA 2.75 / 4 -- major GPA: 3.2 / 4
    \end{cvsubsection}
 \end{cvsection}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Awards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Awards}
    \begin{cvsubsection}{}{}{}
       \begin{itemize}
          \item \textbf{Instructor (2003 – 2005):} Taught two full-credit Computer Science courses; average ratings of 4.8 out of 5.0.
-         \item \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for Synchronized Calendar project, out of 100 projects.
+         \item \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for Synchronized Calendar project
       \end{itemize}
    \end{cvsubsection}
 \end{cvsection}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Skills}
    \begin{cvsubsection}{}{}{}
       \begin{itemize}
