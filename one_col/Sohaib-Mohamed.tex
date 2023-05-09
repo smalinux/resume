@@ -24,7 +24,10 @@
 \documentclass[]{Sohaib-Mohamed}
 
 % For mathematical symbols
+\usepackage{amsmath}
+% href
 \usepackage[hidelinks]{hyperref}
+\usepackage{amssymb}
 
 
 % Set applicant's personal data for header
@@ -51,84 +54,77 @@
 %%% Experience
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Experience}
+
+   %%%%%%%%
    \begin{cvsubsection}{Software Engineer, Intern}{Google Summer of Code}{June 2022 - Oct 2022}
       \textbf{Link:} \href{https://gist.github.com/smalinux/e869b376b5c77cacdcda4cb14f027632}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#google-summer-of-code-2022}{\textit{Portfolio}}
       \begin{itemize}
-         %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-         %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-         %\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-         %\item Redesigned chat file format and implemented backwards compatibility for search.
-         \item
-         \item
-         \item
+         \item Generalized Htop columns by 75\% to enable easy integration of any performance metrics by implementing a feature called Dynamic Screens.
+         \item Ported 12 \textbf{eBPF} CO-RE performance tools to the PCP framework.
+         \item Added \approx10,000 lines of production-ready code written in \textbf{C language} and \textbf{bash script}.
       \end{itemize}
-      \textbf{Skills}: x, y, z
+      %\textbf{Skills}: x, y, z
    \end{cvsubsection}
+
+   %%%%%%%%
    \begin{cvsubsection}{Open-Source Contributor}{Linux Kernel | Htop | PCP}{Feb 2021 -- Present}
       \textbf{Links:} \href{https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=grep&q=sohaib}{\textit{Linux Kernel}} | \href{https://github.com/htop-dev/htop/commits?author=smalinux}{\textit{Htop}} | \href{https://github.com/performancecopilot/pcp/commits?author=smalinux}{\textit{PCP}}
       \begin{itemize}
-         %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-         %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-         %\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-         %\item Redesigned chat file format and implemented backwards compatibility for search.
-         \item
-         \item
-         \item
+         \item Learned the \textbf{Linux kernel} development process by submitting patches to resolve memory leak issues.
+         \item Implementing the \href{https://github.com/htop-dev/htop/pull/707}{\textit{Dynamic Columns}} and \href{https://github.com/htop-dev/htop/pull/669}{\textit{Dynamic Meters}} resulted in a 80\% improvement in overall pcp-htop system efficiency.
+         \item Working on several successful new features in \href{https://man.archlinux.org/man/pcp-htop.1.en}{\textit{pcp-htop}}. requiring extensive \textbf{research} on unfamiliar topics before coding.
       \end{itemize}
-      \textbf{Skills}: x, y, z
+      %\textbf{Skills}: x, y, z
    \end{cvsubsection}
 \end{cvsection}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Projects}
+
+   %%%%%%%%
    \begin{cvsubsection}{Linux From Scratch (LFS)}{}{Jan 2022 -- Feb 2022}
       \textbf{Link:} \href{https://github.com/smalinux/LFS}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#linux-from-scratch-lfs}{\textit{Portfolio}}
       \begin{itemize}
-         %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-         %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-         %\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-         %\item Redesigned chat file format and implemented backwards compatibility for search.
-         \item
-         \item
+         \item Bash scripts are written while working through the \textit{Linux From Scratch} book.
+         \item Gaining hands-on experience with building and configuring a custom Linux distribution from scratch.
       \end{itemize}
-      \textbf{Skills}: x, y, z
+      \textbf{Skills}: linux system architecture; software development; debugging and problem-solving skills; bash scripting
    \end{cvsubsection}
+
+   %%%%%%%%
    \begin{cvsubsection}{Linux kernel modules}{}{Nov 2021 -- Jun 2021}
       \textbf{Link:} \href{https://github.com/smalinux/linux-kernel-modules-lab}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#linux-kernel-modules}{\textit{Portfolio}}
       \begin{itemize}
-         %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-         %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-         %\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-         %\item Redesigned chat file format and implemented backwards compatibility for search.
-         \item
-         \item
+         \item 80+ Linux kernel modules written while working through the \href{https://github.com/cirosantilli/linux-kernel-module-cheat}{\textit{LKMC}} repository and the \textit{LDD3} book.
+         \item Learning how to use kernel APIs helped me acquire practical \textbf{operating system} and \textbf{low-level} knowledge.
       \end{itemize}
-      \textbf{Skills}: x, y, z
+      \textbf{Skills}: linux kernel API and subsystems; System programming; C; GNU Make
    \end{cvsubsection}
+
+   %%%%%%%%
    \begin{cvsubsection}{SimOS}{}{Mar 2020 - Jan 2021}
       \textbf{Link:} \href{https://github.com/smalinux/simOS}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#simos}{\textit{Portfolio}}
       \begin{itemize}
-         %\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-         %\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-         %\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-         %\item Redesigned chat file format and implemented backwards compatibility for search.
-         \item
-         \item
+         \item Tiny operating system was written using pure \textbf{assembly} code only while working through osdev.org.
+         \item Gained a deep knowledge of computer system architecture and design.
       \end{itemize}
-      \textbf{Skills}: x, y, z
+      \textbf{Skills}: assembly language; system architecture; kernel development; low-level programming
    \end{cvsubsection}
 \end{cvsection}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Education
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Education}
    \begin{cvsubsection}{Giza, EG}{Misr University}{Oct 2019 -- Aug 2022}
-      B.S. in Computer Science. Misr University for Science and Technology -- CGPA 2.75 / 4 -- major GPA: 3.2 / 4
+      B.S. in Computer Science. Misr University for Science and Technology -- CGPA 2.75 / 4 -- major GPA: 3 / 4
    \end{cvsubsection}
 \end{cvsection}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Awards
@@ -142,16 +138,15 @@
    \end{cvsubsection}
 \end{cvsection}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Skills
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Skills}
    \begin{cvsubsection}{}{}{}
-      \begin{itemize}
-         \item C++; C; Java; Objective-C; C\#.NET; SQL; JavaScript; XSLT; XML (XSD) Schema
-         \item Visual Studio; Microsoft SQL Server; Eclipse; XCode; Interface Builder
-         \item Visual Studio; Microsoft SQL Server; Eclipse; XCode; Interface Builder
-      \end{itemize}
+      %%%%%%%% max: 211 char
+      C language(Advanced); Python; Linux; Docker; Git; Linux kernel;
+      System programming;
    \end{cvsubsection}
 \end{cvsection}
 
