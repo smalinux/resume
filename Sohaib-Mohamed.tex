@@ -33,16 +33,15 @@
 % Set applicant's personal data for header
 \name{Sohaib Mohamed}
 \address{
-   Software Engineer, \linebreak
-   Linux System Programmer \linebreak
-   %2 years experience \linebreak
+   Embedded Linux Engineer \linebreak
+   +3 years experience \linebreak
    Vienna, Austria
 }
 \contacts{
    \href{mailto:sohaib.amhmd@gmail.com}{sohaib.amhmd@gmail.com} \linebreak
-   \textbf{LinkedIn: }\href{https://linkedin.com/in/smalinux}{smalinux} \linebreak
+   \textbf{LinkedIn:} \href{https://linkedin.com/in/smalinux}{smalinux} \linebreak
    \textbf{GitHub:} \href{https://github.com/smalinux}{smalinux} \linebreak
-   \textbf{WhatsApp: }\href{https://wa.me/4368110477349}{\textit{4368110477349}}
+   \textbf{WhatsApp:} \href{https://wa.me/4368110477349}{\textit{+4368110477349}}
 }
 
 \begin{document}
@@ -57,18 +56,19 @@
 \begin{cvsection}{Experience}
 
    %%%%%%%%
-   \begin{cvsubsection}{Software Engineer}{LOYTEC electronics GmbH}{Jan 2024 - Present}
+	\begin{cvsubsection}{LOYTEC electronics GmbH}{}{Jan 2024 -- Present}
       \begin{itemize}
-         \item Maintenance and expansion of an existing Buildroot/Linux environment.
-         \item Development of new functions and modules at the operating system level.
-         \item Software-side support for the hardware department in evaluating and commissioning new hardware.
+         \item Worked as \textbf{Buildroot}/Linux system integrator across 3 \textbf{ARM} SoCs (Allwinner A64, Atmel SAMA5D3, SAM9G20).
+         \item Upgraded kernel from 5.10 to 6.1, toolchain, and entire rootfs.
+         \item Wrote \textbf{device trees}, \textbf{kernel drivers}, and board support for new hardware (\textbf{I2C}, \textbf{SPI}, \textbf{UART}, \textbf{etc}).
+		 \item Automated build and testing workflows using \textbf{Python} and \textbf{bash scripts}.
       \end{itemize}
       %\textbf{Skills}: x, y, z
    \end{cvsubsection}
 
    %%%%%%%%
-   \begin{cvsubsection}{Software Engineer, Intern}{Google Summer of Code}{June 2022 - Oct 2022}
-      \textbf{Link:} \href{https://gist.github.com/smalinux/e869b376b5c77cacdcda4cb14f027632}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#google-summer-of-code-2022}{\textit{Portfolio}}
+	\begin{cvsubsection}{Google Summer of Code, Intern}{}{Jun 2022 -- Oct 2022}
+      \textbf{Link:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#google-summer-of-code-2022}{\textit{Portfolio}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/e869b376b5c77cacdcda4cb14f027632}{\textit{GitHub}}
       \begin{itemize}
          \item Added \approx10,000 lines of production-ready code written in \textbf{C language} and \textbf{bash script}.
          \item Ported 12 \textbf{eBPF} performance tools to the PCP framework.
@@ -78,12 +78,11 @@
    \end{cvsubsection}
 
    %%%%%%%%
-   \begin{cvsubsection}{Open-Source Contributor}{Linux Kernel | Htop | PCP}{Feb 2021 -- Present}
-      \textbf{Links:} \href{https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=grep&q=sohaib}{\textit{Linux Kernel}} | \href{https://github.com/htop-dev/htop/commits?author=smalinux}{\textit{Htop}} | \href{https://github.com/performancecopilot/pcp/commits?author=smalinux}{\textit{PCP}}
+	\begin{cvsubsection}{Open-Source Contributor}{}{Feb 2021 -- Present}
+      \textbf{Links:} \href{https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=grep&q=sohaib}{\textit{Linux Kernel}} | \href{https://github.com/barebox/barebox/commits?author=smalinux}{\textit{Barebox}} | \href{https://github.com/htop-dev/htop/commits?author=smalinux}{\textit{Htop}} | \href{https://github.com/performancecopilot/pcp/commits?author=smalinux}{\textit{PCP}}
       \begin{itemize}
-         \item Contributed to the Linux kernel development by submitting patches to \textbf{the kernel} to resolve memory leaks.
-         \item Designed several successful new features requiring in-depth \textbf{research} on unfamiliar topics before coding.
-         \item Implementing the \href{https://github.com/htop-dev/htop/pull/707}{\textit{Dynamic Columns}} and \href{https://github.com/htop-dev/htop/pull/669}{\textit{Dynamic Meters}} features resulted in an 80\% improvement in overall \href{https://man.archlinux.org/man/pcp-htop.1.en}{\textit{pcp-htop}} system efficiency.
+         \item Submitted patches to the \textbf{Linux kernel} to resolve memory leaks.
+         \item Designed and implemented \href{https://github.com/htop-dev/htop/pull/707}{\textit{Dynamic Columns}} and \href{https://github.com/htop-dev/htop/pull/669}{\textit{Dynamic Meters}} for Htop, resulting in an 80\% improvement in \href{https://man.archlinux.org/man/pcp-htop.1.en}{\textit{pcp-htop}} system efficiency.
       \end{itemize}
       %\textbf{Skills}: x, y, z
    \end{cvsubsection}
@@ -95,25 +94,26 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{cvsection}{Projects}
 
-   %%%%%%%%
-   \begin{cvsubsection}{Linux kernel modules}{}{Nov 2021 -- Jun 2021}
-      \textbf{Link:} \href{https://github.com/smalinux/linux-kernel-modules-lab}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#linux-kernel-modules}{\textit{Portfolio}}
+%%%%%%%%
+   \begin{cvsubsection}{Barebox Board Support}{}{Nov 2025 -- Jan 2026}
+      \textbf{Links:} \href{https://lore.barebox.org/barebox/20260116-barebox-kickpi-v1-0-d11fbccd527a@gmail.com/T/}{\textit{KickPi K3}} | \href{https://lore.barebox.org/barebox/20251203-avenger96-v2-0-95f0cfa50aaa@gmail.com/}{\textit{Avenger96}}
       \begin{itemize}
-         \item 80+ Linux kernel modules written while working through the \href{https://github.com/cirosantilli/linux-kernel-module-cheat}{\textit{LKMC}} repository and the \textit{LDD3} book.
-         \item Learning how to use kernel APIs helped me acquire practical \textbf{operating system} and \textbf{low-level} knowledge.
+         \item Added board support for Rockchip \textbf{KickPi K3} and Arrow \textbf{STM32MP157A Avenger96} to the \textbf{barebox} bootloader.
       \end{itemize}
-      \textbf{Skills}: linux kernel API and subsystems; System programming; C; GNU Make
+      \textbf{Skills}: barebox bootloader; device tree; embedded Linux; board bring-up
    \end{cvsubsection}
 
-   %%%%%%%%
-   \begin{cvsubsection}{SimOS}{}{Mar 2020 - Jan 2021}
-      \textbf{Link:} \href{https://github.com/smalinux/simOS}{\textit{GitHub}} | \textbf{Read More:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#simos}{\textit{Portfolio}}
+%%%%%%%%
+   \begin{cvsubsection}{Linux kernel modules}{}{Jun 2021 -- Nov 2021}
+      \textbf{Link:} \href{https://gist.github.com/smalinux/2e9c5537fdac65501a655280352c9c15#linux-kernel-modules}{\textit{Portfolio}} | \textbf{Read More:} \href{https://github.com/smalinux/linux-kernel-modules-lab}{\textit{GitHub}}
       \begin{itemize}
-         \item Tiny operating system was written using pure \textbf{assembly} code only while working through osdev.org.
-         \item Gained a deep knowledge of computer system architecture and design.
+         \item Wrote 80+ Linux kernel modules while working through the \href{https://github.com/cirosantilli/linux-kernel-module-cheat}{\textit{LKMC}} repository and the \textit{LDD3} book.
+         \item Applied kernel APIs to acquire practical \textbf{operating system} and \textbf{low-level} knowledge.
       \end{itemize}
-      \textbf{Skills}: assembly language; system architecture; kernel development; low-level programming
+      \textbf{Skills}: Linux kernel API and subsystems; System programming; C; GNU Make
    \end{cvsubsection}
+
+%%%%%%%%
 \end{cvsection}
 
 
@@ -146,7 +146,7 @@
 \begin{cvsection}{Skills}
    \begin{cvsubsection}{}{}{}
       %%%%%%%% max: 211 char
-      C language (Advanced); Python; Linux; Docker; Git; Linux kernel; System programming;
+      C language (Advanced); Python; Linux; Docker; Git; Linux kernel; System programming; Yocto; Buildroot; U-Boot; eBPF; Board bring-up/BSP
    \end{cvsubsection}
 \end{cvsection}
 
